@@ -1,0 +1,3 @@
+D:/桌面/github笔记上传/金山/lesson/Debug/CMakeFiles/Hello.dir
+D:/桌面/github笔记上传/金山/lesson/Debug/CMakeFiles/ALL_BUILD.dir
+D:/桌面/github笔记上传/金山/lesson/Debug/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^D:\桌面\GITHUB笔记上传\金山\LESSON\DEBUG\CMAKEFILES\43EDA728B8BCE422E3EF9CB04FFDDCD1\GENERATE.STAMP.RULE
+setlocal
+D:\software\CMake\bin\cmake.exe -SD:/桌面/github笔记上传/金山/lesson/hello -BD:/桌面/github笔记上传/金山/lesson/Debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/桌面/github笔记上传/金山/lesson/Debug/Hello.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
