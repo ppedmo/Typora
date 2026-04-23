@@ -296,7 +296,7 @@ powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command 
 #登录
 
 #运行
-postman collection run 46570498-ef6f1682-c7a2-4e76-afbb-0c4058d6cb8c -e 46570498-8f11cb5c-1f8a-4c10-bb8f-e384cd54a035
+
 ```
 
 
