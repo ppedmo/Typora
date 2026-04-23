@@ -78,18 +78,52 @@ navicat破解:[Navicat安装破解和激活详细讲解（全网最简单且靠�
 
 （管理员运行命令提示符）
 
-**修改密码**  ：mysql@123
-
-打咩好像这个密码不太行
-
-换mysql（密码别带@）
+**修改密码**  ：mysql（密码不能带@）
 
 改密码：[mysql设置密码报错:mysqladmin: connect to server at 'localhost' failed的解决方法-CSDN博客](https://blog.csdn.net/weixin_42709849/article/details/103782061)
 
-连接数据库之前先启动一下mysql：命令行（管理员）net start mysql
+**连接数据库**之前先启动一下mysql：命令行（管理员）net start mysql
+
+```
+[mysqld] 
+port=3306 
+basedir=D:\software\mysql-8.0.37-winx64 
+datadir=D:\software\mysql-8.0.37-winx64\data 
+character-set-server=utf8mb4 
+default_authentication_plugin=mysql_native_password
+```
+
+**紧急启动**D:\software\mysql-8.0.37-winx64\bin>mysqld --console --datadir=D:\software\mysql-8.0.37-winx64\data
+
+```
+cmd管理员
+C:\Windows\System32>net start mysql
+服务名无效。
+
+请键入 NET HELPMSG 2185 以获得更多的帮助。
+//重新装一下服务
+D:\software\mysql-8.0.37-winx64\bin>mysqld --install mysql
+Service successfully installed.
+
+D:\software\mysql-8.0.37-winx64\bin>net start mysql
+mysql 服务正在启动 .
+mysql 服务已经启动成功。
+
+D:\software\mysql-8.0.37-winx64\bin>
+```
 
 导入数据库：照着这个导入https://blog.csdn.net/Elliseaon/article/details/118275142
 
 结果展示：![image-20240604192904663](C:\Users\honor\AppData\Roaming\Typora\typora-user-images\image-20240604192904663.png)
 
+# nvm报错
 
+D:\code\project\backend>mvn spring-boot:run
+'mvn' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+检查下载，PowerShell不行，要cmd中运行
+
+## 同时安装java8和java17
+
+[同时安装Java8和Java17：如何自由切换？（For Windows10）-CSDN博客](https://blog.csdn.net/RRRRRRyan/article/details/136977283)

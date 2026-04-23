@@ -1,5 +1,1 @@
-multpass
-
-- vi/vim编辑器
-
-- 
+常见命令：[【Linux】Linux常用命令60条（含完整命令语句）_linux必学的60个命令-CSDN博客](https://blog.csdn.net/wzk4869/article/details/132855372)
