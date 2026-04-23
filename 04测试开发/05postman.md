@@ -37,7 +37,7 @@ API：给程序使用的接口
 
 # 二、postman
 
-![image-20250717123641541](C:/Users/honor/AppData/Roaming/Typora/typora-user-images/image-20250717123641541.png)
+![image-20260423164649992](https://gitee.com/ppedmo/pic-go/raw/master/img/202604231646069.png)
 
 1. 工程目录workspace--项目名
 2. 创建集合collection--模块
@@ -109,7 +109,7 @@ Runs：运行
 
 **第二种传参方式Body**--不会显示在url中，相对安全
 
-![image-20250717104519436](C:/Users/honor/AppData/Roaming/Typora/typora-user-images/image-20250717104519436.png)
+![image-20260423164627864](https://gitee.com/ppedmo/pic-go/raw/master/img/202604231646939.png)
 
 none：没有参数
 
@@ -122,7 +122,7 @@ raw：JSON、XML、HTML、Text、JavaScript
 binary：二进制文件上传
 
 GraphQL：不怎么使用，可忽略
-![image-20250717105356019](C:/Users/honor/AppData/Roaming/Typora/typora-user-images/image-20250717105356019.png)
+![image-20260423164617597](https://gitee.com/ppedmo/pic-go/raw/master/img/202604231646720.png)
 
 Cookies：请求的Cookie--请求头--Postman用于自动管理Cookie的功能
 
@@ -130,7 +130,7 @@ Cookies：请求的Cookie--请求头--Postman用于自动管理Cookie的功能
 
 **响应四要素：响应码、响应信息、响应头、响应数据（返）**
 
-![image-20250717105818881](C:/Users/honor/AppData/Roaming/Typora/typora-user-images/image-20250717105818881.png)
+![image-20260423164547309](https://gitee.com/ppedmo/pic-go/raw/master/img/202604231645448.png)
 
 200 OK：响应码 响应信息
 
