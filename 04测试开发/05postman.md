@@ -292,11 +292,9 @@ powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command 
 
 **3.通过CLI命令**
 
-API Key：`PMAK-688ad0a3f0ebd10001f1abe4-13293c6c5e859ad1068558c1dfc9b23940`
-
 ```shell
 #登录
-postman login --with-api-key PMAK-688ad0a3f0ebd10001f1abe4-13293c6c5e859ad1068558c1dfc9b23940
+
 #运行
 postman collection run 46570498-ef6f1682-c7a2-4e76-afbb-0c4058d6cb8c -e 46570498-8f11cb5c-1f8a-4c10-bb8f-e384cd54a035
 ```
@@ -562,11 +560,10 @@ linux服务器搭建
 - 一步到位：
 
   ```shell
-  postman login --with-api-key PMAK-688ad0a3f0ebd10001f1abe4-13293c6c5e859ad1068558c1dfc9b23940
   postman collection run 46570498-ef6f1682-c7a2-4e76-afbb-0c4058d6cb8c -e 46570498-8f11cb5c-1f8a-4c10-bb8f-e384cd54a035
   ```
-
   
+
 
 ## 3.优点
 
